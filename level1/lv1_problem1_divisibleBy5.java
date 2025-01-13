@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class lv1_problem1_divisibleBy5 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -8,4 +9,5 @@ public class lv1_problem1_divisibleBy5 {
         System.out.println("Is the number " + number + " divisible by 5? " + (number % 5 == 0));
         scanner.close();
     }
+    
 }
